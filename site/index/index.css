@@ -1,0 +1,129 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(135, 150, 249);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    font-family: cursive;
+    position: fixed;
+    right: 0;
+    left: 0;
+    opacity: 70%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.inicio {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.games h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.cartao {
+    background-color:rgb(242, 230, 230);
+    margin: 1vh;
+    left: 0;
+    width: 100%;
+    height: 30Vh;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.423);
+    overflow: hidden;
+}
+
+.comunidade{
+    font-family: cursive;
+    font-size:xx-large;
+    margin: auto;
+}
+
+.text{
+    background-color: rgb(80, 80, 231);
+    color: rgb(210, 210, 255);
+    padding: 2vh;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.319);
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 30vh;
+    text-align: center;
+    font-family: cursive;
+    border: none;
+}
+
+.text:hover{
+    transform: scale(1.1);
+}
+
+.email{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.319);
+    border: none;
+    border-radius: 5px;
+    height: 20%;
+    width: 40%;
+    text-align: center;
+    background-color: rgb(140, 140, 235);
+}

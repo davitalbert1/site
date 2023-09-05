@@ -1,0 +1,18 @@
+body{
+    background-color:rgb(135, 150, 249);
+}
+
+.cartao{
+    width: 40%;
+    height: 10vh;
+    background-color: antiquewhite;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.319);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.texto{
+    margin: auto;
+    font-family: cursive;
+}
